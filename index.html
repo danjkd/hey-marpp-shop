@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HeyMarpp Merch</title>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="hero">
+          <h2 class="heading">HeyMarpp</h2>
+          <p class="sub-heading">Laptops & Consoles</p>
+        </div>
+        <div class="features feature-1">
+          <h4 class="price">Laptops</h4>
+          <p class="item">Get 10% Off</p>
+        </div>
+        <div class="features feature-2">
+          <h4 class="price">Games</h4>
+          <p class="item">X-Box Latest Releases</p>
+        </div>
+      </header>
+
+      <nav class="menu">
+        <div class="menu-toggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="brand">
+          <h1>HeyMarpp Shop</h1>
+        </div>
+        <ul class="menu-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#about_us">About Us</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <section class="services" id="products">
+        <div class="service">
+          <div class="icon"><i class="fa fa-laptop" aria-hidden="true"></i></div>
+          <h3>Laptops</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam impedit ut vel. Quo, non?</p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="fa fa-camera" aria-hidden="true"></i></div>
+          <h3>Cameras</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam impedit ut vel. Quo, non?</p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="fa fa-gamepad" aria-hidden="true"></i></div>
+          <h3>Video Games</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam impedit ut vel. Quo, non?</p>
+        </div>
+        <div class="service">
+          <div class="icon"><i class="fa fa-users" aria-hidden="true"></i></div>
+          <h3>Merchandise</h3>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum nam impedit ut vel. Quo, non?</p>
+        </div>
+      </section>
+
+      <section class="about" id="about_us">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur consequuntur, velit voluptatibus debitis cum eum sit voluptas ducimus!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, fuga?</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur eveniet delectus, ullam explicabo quibusdam quas iste accusantium a minus voluptatum!</p>
+      </section>
+
+      <section class="gallery" id="gallery">
+        <h2>Gallery</h2>
+        <img src="https://source.unsplash.com/random/200x200" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/202x202" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/204x204" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/206x206" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/207x207" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/201x201" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/208x208" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/209x209" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/205x205" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/2011x2011" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/2012x2012" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/2015x2015" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/2015x2013" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/2013x2012" alt="image" loading="lazy" />
+        <img src="https://source.unsplash.com/random/2012x2013" alt="image" loading="lazy" />
+      </section>
+
+      <!-- bagian footer -->
+      <footer>
+        <p>Copyright &copy; 2022 - HeyMarpp Shop.</p>
+      </footer>
+    </div>
+    <script>
+      const menuToggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector("nav ul");
+
+      menuToggle.addEventListener("click", function () {
+        nav.classList.toggle("slide");
+      });
+    </script>
+  </body>
+</html>
